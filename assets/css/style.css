@@ -1,0 +1,416 @@
+:root{
+  --bg-color:#ffffff;
+}
+.dark-theme{
+  --bg-color:#000000;
+}
+
+body{
+  background-color:var(--bg-color);
+}
+#yellowVector{
+  z-index:2;
+  position:absolute;
+  max-height:50%;
+  max-width:50%;
+
+}
+#boyVector{
+  z-index:5;
+  position:relative;
+  top:12% ;
+  left:2%;
+}
+#blueVector{
+  position:absolute;
+  z-index:1;
+  max-height:40%;
+  max-width:40%;
+}
+
+#glassVector{
+  max-height:30%;
+  max-width:30%;
+
+}
+.top_float_box{
+ z-index:6;
+ max-height:30%;
+ background-color:#f2f2f2;
+ /* max-width:30%; */
+ position:relative;
+ left:90%;
+ margin-bottom:-19%;
+}
+.bottom_float_box{
+  z-index:6;
+  /* max-height:30%; */
+  background-color:#f2f2f2;
+  max-width:300px;
+  position:relative;
+  left:45%;
+  margin-top:-5%;
+
+ }
+ .emojie{
+  max-height:50px;
+  width:50px;
+  margin-left:35px;
+ }
+ .skillBoxRight{
+  background-color:#f2f2f2;
+  position:relative;
+  left:50%;
+ }
+ .skillBoxLeft{
+  background-color:#f2f2f2;
+
+ }
+
+.workBox{
+    align-items: center;
+    background: #fff;
+    border-radius: 100%;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 4rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    position: relative;
+    width: 4rem;
+
+}
+.workBox:before{
+
+    background-image: linear-gradient(180deg,#87e6fb 0,#ffc05c);
+    border-radius: 100%;
+    bottom: -8px;
+    box-shadow: var(--boxShadow);
+    content: "";
+    left: -8px;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    z-index: -1;
+
+}
+
+
+#blueCircle{
+  background-color:#1949b8;
+  height:300px;
+  width:300px;
+  border-radius:100%;
+  position:absolute;
+  z-index:2;
+  right:7%;
+  top:200%;
+
+}
+#yelowCircle{
+  background-color:#f5c32c;
+  height:300px;
+  width:300px;
+  border-radius:100%;
+  position:absolute;
+  z-index:1;
+  right:7%;
+  bottom:-110%;
+
+}
+#mainCircle{
+  background-color:white;
+  border: 1px solid black;
+  height:400px;
+  width: 400px;
+  border-radius:100%;
+  z-index:15;
+  position:relative;
+  left:30%;
+
+}
+.subCricle{
+  background-color:#f2f2f2;
+  border-radius:100%;
+  max-width:130px;
+  max-height:130px;
+  padding-left:10px;
+  padding-bottom:20px;
+}
+#fbCicle{
+  position:absolute;
+  bottom:85%;
+  left:35%;
+}
+#amazonCicle{
+  position:absolute;
+  right:85%;
+  top:35%;
+}
+#shopifyCicle{
+  position:absolute;
+  left:35%;
+  top:85%;
+}
+#bandcampCicle{
+  position:absolute;
+  left:85%;
+  bottom:36%;
+}
+#awardCicle{
+  position:absolute;
+  left:37%;
+  bottom:35%;
+}
+
+
+#recent_proj_heading{
+  margin-top:10%;
+}
+
+.hero {
+	background: #115d98;
+	margin-bottom: 4em;
+  position: relative;
+  color: #fff;
+  padding-top: 4em;
+}
+.my-curve{
+  border-top-left-radius:50% 40%;
+  border-top-right-radius:50% 40%;
+
+}
+
+#goToTopBtn {
+  display: inline-block;
+  /* background-color: #FF9800; */
+  /* width: 50px;
+  height: 50px; */
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#goToTopBtn::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#goToTopBtn:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#goToTopBtn:active {
+  background-color: #555;
+}
+#goToTopBtn.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* .hero .curve {
+	  position: relative;
+	  display: block;
+		height: 140px;
+		bottom: -140px;
+		 margin-top: -100px; 
+    overflow: hidden;
+	}
+	.hero .curve::after {
+		border-radius: 50%;
+		box-shadow: inset 0 -10px 10px rgba(0,0,0,0.05);
+		height: 100px;
+		bottom: 0;
+		transform: translate(-5%,-100%);
+		-ms-transform: translate(-5%,-100%);
+		-webkit-transform: translate(-5%,-100%);
+		content: "";
+		position: absolute;
+		width: 110%;
+		z-index: -1;
+  	background: #115d98;
+	}
+.hero h1, 
+.hero h3 {
+  text-align: center;
+} */
+
+
+
+
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .my-card {
+    display: inline-block;
+  }
+}
+
+
+
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 100px) and (max-width: 576px) {
+    #themeBtn{
+        margin-left: 1px;
+    }
+    #boyVector{
+      top:-12% ;
+      max-height:55%
+  }
+
+#blueCircle{
+  height:150px;
+  width:150px;
+  top:330%;
+
+}
+#yelowCircle{
+  background-color:#f5c32c;
+  height:150px;
+  width:150px;
+  top:340%;
+
+}
+#mainCircle{
+  height:200px;
+  width: 200px;
+  left:7%;
+  top:60%;
+}
+.subCricle{
+padding:0.8rem !important;
+
+}
+
+#recent_proj_heading{
+  margin-top:40%;
+}
+
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and  (max-width: 768px) {
+
+             #boyVector{
+      top:-32% ;
+  }
+  #blueCircle{
+    height:150px;
+    width:150px;
+    top:215%;
+    right:20%;
+  
+  }
+  #yelowCircle{
+    background-color:#f5c32c;
+    height:150px;
+    width:150px;
+    top:205%;
+    right:20%;
+  
+  }
+  #mainCircle{
+    height:300px;
+    width: 300px;
+    left:20%;
+    top:60%;
+  }
+  .subCricle{
+  padding:0.8rem !important;
+  
+  }
+
+  #recent_proj_heading{
+    margin-top:30%;
+  }
+
+
+
+
+ } 
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+
+  #boyVector{
+    top:-8% ;
+}
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media  (min-width: 992px) and (max-width: 1200px) {
+  #boyVector{
+    margin-top:20%;
+    top:-32% ;
+}
+.top_float_box{
+  left:82%;
+ }
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media  (min-width: 1200px) {
+    
+  #boyVector{
+    top:5% ;
+    left:10%;
+}
+ }
+
+
+ /* Applied untill this range */
+
+ /* // No media query necessary for xs breakpoint as it's effectively `@media (max-width: 0) { ... }` */
+@include media-breakpoint-down(sm) { 
+    body{
+        background-color:red;
+    }
+ }
+@include media-breakpoint-down(md) { 
+    
+
+ }
+@include media-breakpoint-down(lg) { 
+    
+
+ }
+@include media-breakpoint-down(xl) { 
+    
+
+ }
+@include media-breakpoint-down(xxl) { 
+    
+
+ }
+
+/* // Example: Style from medium breakpoint and down */
+@include media-breakpoint-down(md) {
+  .custom-class {
+    display: block;
+  }
+}
